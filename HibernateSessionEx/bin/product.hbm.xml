@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+ "-//Hibernate/Hibernate Mapping DTD//EN"
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+ <hibernate-mapping>
+ <class name="Session.ProductPojo" table="product_details">
+ <cache usage="read-write"/>
+ <id name="productId" column="Productid">
+ <generator class="increment"></generator>
+ </id>
+  <property name="productName" column="Productname"></property>
+ <property name="productCost" column="Productcost"></property>
+ <property name="productMdate" column="ProductMdate"></property>
+ </class>
+ </hibernate-mapping>

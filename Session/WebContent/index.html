@@ -1,0 +1,50 @@
+<html>
+
+<script language="javascript">
+
+
+function check()
+{
+	
+if(document.empform.eid.value=="")
+	{
+	  alert("eid should not empty");
+	  return false;
+	}
+else 
+if(document.empform.name.value=="")
+	{
+	  alert("Name should not empty");
+	  return false;
+	}
+	
+	
+	
+	
+}
+
+
+</script>
+
+
+<body bgcolor="yellow">
+<form name="empform" action="insert.jsp" method="get" onsubmit="return check()">
+<h3 align=center><u>Employ Details</u></h3>
+<table align="center">
+<tr><td>Eid:</td><td><input type=text name=eid></td></tr>
+<tr><td>Name:</td><td><input type=text name=name></td></tr>
+<tr><td>Designation :</td><td><input type=text name=des></td></tr>
+<tr><td>basic:</td><td><input type=text name=basic></td></tr>
+<tr><td>address:</td><td><input type=text name=add></td></tr>
+<tr><td></td><td><input type=submit  value="Insert"></td></tr>
+</table>
+</form>
+
+<h2><a href="showdetails.jsp">Show Employs</a></h2>
+
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+ "-//Hibernate/Hibernate Mapping DTD//EN"
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+ 
+ <hibernate-mapping>
+ 
+ <class name="onetoMany.DepartmentPojo" table="DEPoneToMany">
+ 
+ 	<id name="departmentId" column="dept_id">
+ 	 <generator class="increment"></generator>
+ 	</id>
+ 	<property name="departmentName" column="dept_name"></property>
+ 	<property name="departmentEmail" column="dept_email"></property>
+ 	<set name="emps" table="ONETOMANY" cascade="all" >
+ 	<key>
+ 	<column name="dept_id">
+ 	 </column>	
+ 	</key>
+ 	<one-to-many class="onetoMany.EmpPojo" />
+  	</set>
+   </class>
+  </hibernate-mapping>

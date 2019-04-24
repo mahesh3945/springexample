@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<script type="text/javascript">
+
+function check()
+{
+	if(document.getElementById("emid").value =="" ||
+			document.getElementById("emname").value =="" ||
+			document.getElementById("emage").value =="" ||
+			document.getElementById("emsal").value =="" ||
+			document.getElementById("emdesig").value =="")
+		{
+		alert("Enter the values");
+		return false;	
+		}
+}
+</script>
+<body>
+<form action="http://localhost:8088/EmployeeWebsite/EmployeeServlet" method="post" oonclick="return check()">
+<p>
+Employee Id<input id=emid type="text" name="eid" value=""><br>
+Employee Name<input id =emname type="text" name="ename" value=""><br>
+Employee Age<input id =emage type="text" name="eage"><br>
+Employee salary<input id =emsal type="text" name="esal"><br>
+Employee designation<input id =emdesig type="text" name="edesignation"><br>
+<input type="submit" value="SUBMIT"></p>
+<a href="Search.html">Find the Employee details</a>
+</form>
+</body>
+</html>

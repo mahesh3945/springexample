@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-3.2.10.RELEASE/libs/LIB/spring-aop-3.2.10.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-3.2.10.RELEASE/libs/LIB/spring-aspects-3.2.10.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-3.2.10.RELEASE/libs/LIB/spring-beans-3.2.10.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-3.2.10.RELEASE/libs/LIB/spring-build-src-3.2.10.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-3.2.10.RELEASE/libs/LIB/spring-context-3.2.10.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-3.2.10.RELEASE/libs/LIB/spring-context-support-3.2.10.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-3.2.10.RELEASE/libs/LIB/spring-core-3.2.10.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-3.2.10.RELEASE/libs/LIB/spring-expression-3.2.10.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-3.2.10.RELEASE/libs/LIB/spring-framework-bom-3.2.10.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-3.2.10.RELEASE/libs/LIB/spring-framework-bom-3.2.10.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-3.2.10.RELEASE/libs/LIB/spring-instrument-3.2.10.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-3.2.10.RELEASE/libs/LIB/spring-instrument-tomcat-3.2.10.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-3.2.10.RELEASE/libs/LIB/spring-instrument-tomcat-3.2.10.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-3.2.10.RELEASE/libs/LIB/spring-instrument-tomcat-3.2.10.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-3.2.10.RELEASE/libs/LIB/spring-jdbc-3.2.10.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-3.2.10.RELEASE/libs/LIB/spring-jms-3.2.10.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-3.2.10.RELEASE/libs/LIB/spring-orm-3.2.10.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-3.2.10.RELEASE/libs/LIB/spring-oxm-3.2.10.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-3.2.10.RELEASE/libs/LIB/spring-struts-3.2.10.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-3.2.10.RELEASE/libs/LIB/spring-test-3.2.10.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-3.2.10.RELEASE/libs/LIB/spring-tx-3.2.10.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-3.2.10.RELEASE/libs/LIB/spring-web-3.2.10.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-3.2.10.RELEASE/libs/LIB/spring-webmvc-3.2.10.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-3.2.10.RELEASE/libs/LIB/spring-webmvc-portlet-3.2.10.RELEASE.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

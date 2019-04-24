@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="F:/new java files/springMVCwithhibernate jars/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-4.0.4.RELEASE/libs/JARS/spring-aop-4.0.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-4.0.4.RELEASE/libs/JARS/spring-aspects-4.0.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-4.0.4.RELEASE/libs/JARS/spring-beans-4.0.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-4.0.4.RELEASE/libs/JARS/spring-build-src-4.0.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-4.0.4.RELEASE/libs/JARS/spring-context-4.0.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-4.0.4.RELEASE/libs/JARS/spring-context-support-4.0.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-4.0.4.RELEASE/libs/JARS/spring-context-support-4.0.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-4.0.4.RELEASE/libs/JARS/spring-core-4.0.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-4.0.4.RELEASE/libs/JARS/spring-expression-4.0.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-4.0.4.RELEASE/libs/JARS/spring-framework-bom-4.0.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-4.0.4.RELEASE/libs/JARS/spring-instrument-4.0.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-4.0.4.RELEASE/libs/JARS/spring-instrument-tomcat-4.0.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-4.0.4.RELEASE/libs/JARS/spring-instrument-tomcat-4.0.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-4.0.4.RELEASE/libs/JARS/spring-instrument-tomcat-4.0.4.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-4.0.4.RELEASE/libs/JARS/spring-jdbc-4.0.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-4.0.4.RELEASE/libs/JARS/spring-jms-4.0.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-4.0.4.RELEASE/libs/JARS/spring-messaging-4.0.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-4.0.4.RELEASE/libs/JARS/spring-orm-4.0.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-4.0.4.RELEASE/libs/JARS/spring-oxm-4.0.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-4.0.4.RELEASE/libs/JARS/spring-test-4.0.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-4.0.4.RELEASE/libs/JARS/spring-tx-4.0.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-4.0.4.RELEASE/libs/JARS/spring-web-4.0.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-4.0.4.RELEASE/libs/JARS/spring-webmvc-4.0.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-4.0.4.RELEASE/libs/JARS/spring-webmvc-portlet-4.0.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-4.0.4.RELEASE/libs/JARS/spring-webmvc-portlet-4.0.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/spring-framework-4.0.4.RELEASE/libs/JARS/spring-websocket-4.0.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/aspectjrt-1.6.11.jar"/>
+	<classpathentry kind="lib" path="F:/new java files/aspectj-weaver.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

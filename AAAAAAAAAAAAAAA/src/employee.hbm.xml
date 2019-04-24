@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+ "-//Hibernate/Hibernate Mapping DTD//EN"
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+ 
+ <hibernate-mapping>
+  <class name="com.bean.EmployePojo" table="EmployeeAAAA">
+  <id name="employeeId" column="empid">
+  <generator class="increment"></generator>
+  </id>
+  
+ <property name="employeeName" column ="empname"></property>
+ <property name="employeeAge" column ="empage"></property>
+ <property name="employeeSalary" column ="empsal"></property>
+  </class>
+  </hibernate-mapping>
+ 

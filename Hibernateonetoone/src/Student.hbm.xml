@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+ "-//Hibernate/Hibernate Mapping DTD//EN"
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+ 
+ <hibernate-mapping>
+ 
+ <class name="pojo.StudentPojo" table="ONETOONE">
+ 
+ 	<id name="studentId" column="student_id">
+ 	 <generator class="assigned"></generator>
+ 	</id>
+ 	<property name="studentName" column="student_name"></property>
+ 	<property name="studentCourse" column="student_sal"></property>
+ 	<many-to-one name="personDetails" column="pid" unique="true" class="pojo.PersonDetailsPojo" not-null="true"> </many-to-one>
+  </class>
+  
+ <class name="pojo.PersonDetailsPojo" table="PEPoneToOne">
+ 
+ 	<id name="studentId" column="student_id">
+ 	 <generator class="native"></generator>
+ 	</id>
+ 	
+ 	<property name="personFirstName" column="P_firstname"></property>
+ 	<property name="personEmailId" column="p_email"></property>
+ 	
+ 	
+   </class>
+ 
+  
+  </hibernate-mapping>

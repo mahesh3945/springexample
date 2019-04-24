@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Forgot page</title>
+</head>
+<script type="text/javascript">
+
+function check()
+{
+	if(document.getElementById("pass").value!=document.getElementById("cpass").value)
+		{
+		  	alert("Confirm password should be the same");
+		  	return false;
+		}
+}
+</script>
+<body>
+<form action="http://localhost:8088/MyWebsite/ForgotServlet" method="Post" onsubmit="return check()">
+<center>
+<table>
+<tr><td>
+<h1>forgot page</h1></td></tr>
+<tr><td>Enter New password</td><td><input id=pass type="password" name="pass"></td></tr>
+<tr><td>Confirm Password</td><td><input id=cpass type="password" name="cpass"></td></tr>
+<tr><td><input type="submit" value="Click"></td></tr>
+</table>
+</center>
+</form>
+</body>
+</html>
