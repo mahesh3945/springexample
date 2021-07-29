@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+ "-//Hibernate/Hibernate Mapping DTD//EN"
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+ 
+ <hibernate-mapping>
+ 
+ <class name="Customer" table="Customer_details">
+ 
+ 	<id name="customer_id" column="cust_id">
+ 	 <generator class="increment"></generator>
+ 	</id>
+ 	<property name="customer_name" column="cust_name"></property>
+ 	<property name="customer_address" column="cust_address"></property>
+ 	<property name="customer_email" column="cust_email"></property>
+ 	<property name="customer_mobile" column="cust_mobile"></property>
+  </class>
+  </hibernate-mapping>

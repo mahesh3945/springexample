@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sign UP</title>
+	<style type="text/css">
+	    
+	body
+	{
+	background-image: url();
+	<!--color: red;-->
+
+	} 
+	div
+		{	
+			font-style:italic;
+			position:absolute;
+			width: 300px;
+			top: 50px;
+			left: 400px;
+	    } 
+	</style>
+</head>
+<!--<link rel=stylesheet href="http://localhost:8088/MyWebsite/css/Style.css"> </link>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body bgcolor="yellow">
+<h1 >this is simple web application</h1>
+<a href= "MyServlet">click here</a>
+<form action="MyServlet" method=post>
+
+<input type=submit value=Login>
+</form>-->
+<body>
+<div>
+<form action="http://localhost:8088/MyWebsite/InsertServlet" method="post">
+
+<table>
+<tr>
+<td>
+	Email id <input type="text" name="mailId" value="" size="25"><br></td></tr>
+	<tr><td>Password <input type="password" name="password" value="" size="25"><br></td></tr>
+    <tr><td>First Name <input type="text" name="fname" value="" size="25"><br></td></tr>
+   	<tr><td><p> Last Name <input type="text" name="lname" value="" size="25"><br></p><p></p></td></tr>
+	<tr><td>Male <input type="radio" name="sex" value="Male"></td></tr>
+	<tr><td>FeMale <input type="radio" name="sex" value="FeMale"><br><p></td></tr>
+	<tr><td><select name="month">
+	<option> - Month - </option>
+	<script>	
+	for(var i=1;i<=12;i++)
+		{		
+		document.write("<option value="+i+">"+i+"</option>");		
+		}	
+	</script>
+	</select>
+	<!-- 
+	<option value="January">January</option>
+	<option value="Febuary">Febuary</option>
+	<option value="March">March</option>
+	<option value="April">April</option>
+	<option value="May">May</option>
+	<option value="June">June</option>
+	<option value="July">July</option>
+	<option value="August">August</option>
+	<option value="September">September</option>
+	<option value="October">October</option>
+	<option value="November">November</option>
+	<option value="December">December</option>
+	</select>
+ -->
+	<select name="DOBDay">
+	<option> - Day - </option>
+	<script>	
+	for(var i=1;i<=31;i++)
+		{		
+		document.write("<option value="+i+">"+i+"</option>");		
+		}	
+	</script></select>
+	<!-- 
+	<option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	<option value="6">6</option>
+	<option value="7">7</option>
+	<option value="8">8</option>
+	<option value="9">9</option>
+	<option value="10">10</option>
+	<option value="11">11</option>
+	<option value="12">12</option>
+	<option value="13">13</option>
+	<option value="14">14</option>
+	<option value="15">15</option>
+	<option value="16">16</option>
+	<option value="17">17</option>
+	<option value="18">18</option>
+	<option value="19">19</option>
+	<option value="20">20</option>
+	<option value="21">21</option>
+	<option value="22">22</option>
+	<option value="23">23</option>
+	<option value="24">24</option>
+	<option value="25">25</option>
+	<option value="26">26</option>
+	<option value="27">27</option>
+	<option value="28">28</option>
+	<option value="29">29</option>
+	<option value="30">30</option>
+	<option value="31">31</option>
+	</select>
+ -->
+	<select name="DOBYear">
+	<option> - Year - </option>
+	<script>	
+	for(var i=1980;i<=2017;i++)
+		{		
+		document.write("<option value="+i+">"+i+"</option>");		
+		}	
+	</script>
+</select><br/></td></tr>
+		<br/> <tr><td><p> Address <input type="text" name="Address" value="" size="25" ><br></p></td></tr>
+		<tr><td><p> Country <input type="text" name="Country" value="" size="25"><br></p></td></tr>
+		<tr><td><p> Mobile Number  <input type="text" name="number" value="" size="25"><br></p></td></tr>
+		<!-- <input type="submit" name="upload" value="upload photo"> <br/>
+		<textarea name="text" rows="5" cols="15">
+		type something here
+	</textarea>
+	 </p>	
+	 -->
+	<tr><td><input type="submit" value="signUp"><br>
+	 Already have an account?<a href="MainPage.html"> Sign in</a>  </td></tr>
+</table>   
+</form>
+</div>
+</body>
+</html>

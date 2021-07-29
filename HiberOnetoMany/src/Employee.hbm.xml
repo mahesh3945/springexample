@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+ "-//Hibernate/Hibernate Mapping DTD//EN"
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+ 
+ <hibernate-mapping>
+ 
+ <class name="onetoMany.EmpPojo" table="ONETOMANY">
+ 
+ 	<id name="empId" column="emp_id">
+ 	 <generator class="assigned"></generator>
+ 	</id>
+ 	<property name="empName" column="emp_name"></property>
+ 	<property name="empSal" column="emp_sal"></property>
+ 	<property name="departmentId" column="dept_id" insert="false"></property>
+  </class>
+  </hibernate-mapping>

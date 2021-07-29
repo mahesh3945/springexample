@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+ "-//Hibernate/Hibernate Mapping DTD//EN"
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+ <hibernate-mapping>
+ <class name="pojo.RegisterPojo" table="JobSeekerDetails">
+ <id name="mailId" column="MailId">
+ <generator class="increment"></generator>
+ </id>
+ <property name="password" column="Password"></property>
+ <property name="firstName" column="FirstName"></property>
+ <property name="lastName" column="LastName"></property>
+ <property name="gender" column="Gender"></property>
+ <property name="dob" column="DateOfBirth"></property>
+ <property name="Address" column="AddreSS"></property>
+ <property name="Country" column="CountrY"></property>
+ <property name="phone" column="Phone"></property>
+ </class>
+ </hibernate-mapping>
